@@ -5,7 +5,7 @@ const { MongoClient } = require('mongodb');
 const app = express();
 const port = 3005;
 
-const uri = 'mongodb://localhost:27017';
+const uri = 'mongodb+srv://nehab:Tomnjerry@cluster0.c2g9sor.mongodb.net/Userdetails?retryWrites=true&w=majority';
 const dbName = 'Userdetails';
 
 app.use(bodyParser.json());
